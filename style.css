@@ -1,0 +1,233 @@
+ @import url('https://fonts.cdnfonts.com/css/majesty');
+ @import url('https://fonts.cdnfonts.com/css/brittany-aubrey');       
+*{
+    margin: 0; /*used to create space around elements, outside of any defined borders*/
+    padding: 0; /*the space between anelement's border and the element's content*/
+    box-sizing: border-box; /*enables you to define how you want the height and width of an element to be calculated*/
+}
+.header{
+    width: 100%; /*returns a value related to the container*/
+    height: 100vh; /*a percentage of the height of the viewport's initial containing block*/
+    background-image: url(images/home.webp); /*specifies an image to use as the background of an element*//*url describes the locationof a resource*/
+    background-position: center; /*sets the starting position of a background image*/
+    background-size: cover; /*sets the size of the element's background image*/
+    position: fixed; /*position relative to the viewport, stays the same even when it is scrolled*/
+}
+.pic1 h3{
+    color: #ffffff; /*sets the foregrounds color value of an element's text and text decorations, and sets the current color value*/
+    font-family: 'Majesty', sans-serif;  /*specifies the font for an element*/
+    font-size: 200px;   /*sets the size of the font*/
+     float: right;    /*places an element on the left or right side of its container, allowing text and inline elements to wrap around it*/
+     margin-right: 30px;            
+}
+.pic1 h4{
+    color: #F47C7C;
+    font-family: 'Brittany Aubrey', sans-serif;
+     font-size:200px; 
+     float: right;
+     margin-right: 80px;
+}
+.icons a{
+    text-decoration: none;  /*sets the appearance of decorative lines on text*/
+    padding: 1px;
+    transition: .4s;  /*provide a way to control animation speed when changing CSS properties*/
+}
+.icons a:hover{  /*control element that is activated when the user moves or hovers the pointer over a trigger area*/
+    opacity: .5; transition: .4s; /*opacity property sets the opacity level for an element*/
+}
+.pic1{
+    margin-top: 30px;
+  margin-left: 200px;
+}
+.picture1{
+    margin-left: 223px;
+}
+.side-nav{
+width: 90px;
+height: 94%;
+position: fixed;
+top: 0;
+left: 0;
+padding: 30px 15px;
+background-color: #F47C7C; /*sets the background color of an element*/
+backdrop-filter: blur(5px); /*lets you apply  graphical effects such as blurring or color shifting to the area behind an element*/
+}
+.home{
+    margin-top: 20px;
+    height: 40px;
+    position: left
+    
+}
+.study{
+    height: 40px;
+    position: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.quantitative{
+    height: 40px;
+    position: left;
+    margin-bottom: 20px;
+}
+.qualitative{
+    height: 40px;
+    position: left;
+    margin-bottom: 20px;
+}
+.conclusion{
+    height: 40px;
+    position: left;
+    margin-bottom: 20px;
+}
+.aboutus{
+    height: 40px;
+    position: left;
+}
+.logoimg{
+    width: 40px;
+    border-radius: 50%; /*rounds the corners of an element's outer edge*/
+    margin: auto;
+    height: 40px;
+}
+.footertext3 p{
+    margin-top: 60px;
+    color: #F47C7C;
+    font-family: 'Archivo Black';
+    position: fixed;
+}
+.pic3{
+    margin-bottom: 50px;
+    margin-left: 30px;
+    position: relative;
+  }
+  .picture3{
+      margin-left: 22px;
+  }
+  .pic4{
+    margin-bottom: 50px;
+    margin-left: 30px;
+    position: relative;
+  }
+  .picture4{
+      margin-left: 22px;
+  }
+.footertext{
+    margin-top: 30px;
+    color: #F47C7C;
+    position: fixed;
+}
+.footertext2 p{
+    margin-top: 110px;
+    color: #F47C7C;
+    position: fixed;
+}
+.links a{
+    float: right;
+    padding: 1px;
+    height: 10;
+    width: 50px;
+    
+}
+.links2 a{
+    float: right;
+    padding: 1px;
+    height: 10;
+    width: 50px;
+}
+.links3 a{
+    float: right;
+    padding: 1px;
+    height: 10;
+    width: 50px;
+}
+h2{
+    margin-left: 500px;
+    font-size: 50px;
+    color: #EF9F9F ;
+}
+.page2 {
+float: right;
+    margin-left: 200 px;
+}
+.page3{
+    position: fixed;
+    margin-right: 100px;
+}
+.content{
+    display: inline-block;  /*allows to set a width and height on the element*/
+    float: center;
+    margin-top: px;
+    margin-left: 130px;
+    margin-right: 45px;
+    background-color: #F47C7C;
+    width: 600px;
+    height: 400px;
+}
+.content h2{
+    color: rgb(9, 9, 198);
+    font-size: xx-large;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.content p{
+    color: aliceblue;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 21px;
+}
+.conclusion2{
+    display: inline-block;
+    float: center;
+    margin-top: 0 px;
+    margin-left: 130px;
+    margin-right: 45px;
+    background-color: #F47C7C;
+    height: 250px;
+}
+.conclusion2 p3{
+    color: aliceblue;
+    margin-top: 59px;
+    margin-left: 39px;
+    margin-right: 20px;
+    font-size: 22px;
+}
+
+h5{
+    margin-left: 150px;
+    font-size: 50px;
+    color: #EF9F9F ;
+}
+p1{
+    margin-left: 150px;
+}
+p2{
+    margin-left: 150px;
+}
+h6{
+    margin-left: 250px;
+    font-size: 50px;
+    color: #EF9F9F ;
+}
+
+.pic6 {
+    margin-left: 500px;
+}
+li{
+    margin-left: 300px;
+    color:#F47C7C
+}
+.myteam{
+    margin-left: 450px;
+}
+.retail{
+    margin-top: 10px;
+    margin-left: 700px;
+}
+.footertext5 p{
+    color: #F47C7C;
+    position: fixed;
+}
+.footertext6 p{
+    color: #F47C7C;
+}
